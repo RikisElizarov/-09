@@ -33,7 +33,7 @@ function Calculator() {
     };
 
     const calculateCost = () => {
-        const basePrice = 5000; // Базовая стоимость за м²
+        const basePrice = 5000; 
         const foundationMultiplier = formData.foundation === "плитный" ? 1.2 : formData.foundation === "столбчатый" ? 0.8 : 1;
         const wallsMultiplier = formData.walls === "дерево" ? 0.9 : formData.walls === "газобетон" ? 1.1 : 1.2;
         const roofMultiplier = formData.roof === "плоская" ? 0.8 : 1;
